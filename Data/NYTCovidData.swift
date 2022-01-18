@@ -67,7 +67,8 @@ class CovidData {
     
     private let files = [
         "us-counties-2020",
-        "us-counties-2021"
+        "us-counties-2021",
+        "us-counties-2022"
     ]
     
     let dataDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!.appendingPathComponent(Bundle.main.displayName!)
